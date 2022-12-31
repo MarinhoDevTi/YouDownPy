@@ -1,5 +1,5 @@
 # YouDownPy
-## Aplicação para fazer downloads de vídeos do Youtube.
+## Aplicação para fazer downloads de vídeos do Youtube, Desenvolvida por MarinhoTechDev
 
  ### Instalação e dicas:
 
