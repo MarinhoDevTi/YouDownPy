@@ -52,7 +52,7 @@ espaco()
 espaco()
 
 linha()
-link = input("Cole o endereço do link: ")
+link = input("Cole o endereço do link e clique em enter: ")
 linha()
 Donwload(link)
 linha()
