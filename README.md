@@ -11,7 +11,7 @@
 
   https://www.python.org/
 
-  ## 2 
+  ### 2 
 
   ### Agora vamos instalar o pytube !!!
 
@@ -21,9 +21,26 @@
 $ pip install pytube
 
 
-### e aperte enter 
+### aperte enter 
 
 --------------------------------------------------------
+
+# Instalação do Aplicativo 
+
+
+### 1
+
+Clique no botão logo em cima:  ((( Code )))
+
+### 2
+
+Em seguida selecione a opção Download ZIP 
+
+### 3 
+
+Após o Download, extraia a pasta, e execute o arquivo "baixavideo.py"
+
+
 
 
 
