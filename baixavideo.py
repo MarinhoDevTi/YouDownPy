@@ -1,6 +1,8 @@
 #Biblioteca do pytube
 from pytube import YouTube
 
+#Aplicação desenvolvida por Marinho Tech Dev... 
+
 #funcao barra superior Titulo
 def barraTit():
     print("#" * 65)
