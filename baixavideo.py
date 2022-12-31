@@ -1,6 +1,32 @@
 #Biblioteca do pytube
 from pytube import YouTube
 
+#funcao barra superior Titulo
+def barraTit():
+    print("#" * 65)
+#Fim da funcao 
+
+def versao():
+    print("+      --=-=-=-=-...::: YouDownPy v1.0 :::... -=-=-=-=-=--      +")
+#Fim da funcao
+
+def tituloApp():
+    print("+     ....:: Programa para Baixar Vídeos do Youtube ::....      +")
+#Fim da funcao
+
+def linha():
+    print("-" * 65)
+#Fim da funcao
+
+def info():
+    print("!!! Obs. Seu Vídeo será salvo dentro da pasta do Aplicativo !!!")
+#Fim da funcao
+
+def espaco():
+    print("")
+#Fim da funcao
+
+
 #função para download 
 def Donwload(link):
     baixarVideo = YouTube(link)
@@ -11,6 +37,20 @@ def Donwload(link):
     except:
         print("Um erro impediu o exito de seu download !!")
     print("Download completo com sucesso !")
-#leitura de dados     
+
+#Inicio do Aplicativo
+barraTit()
+versao()
+tituloApp()    
+barraTit()
+linha()
+info()
+linha()
+espaco()
+espaco()
+
+linha()
 link = input("Cole o endereço do link: ")
+linha()
 Donwload(link)
+linha()
