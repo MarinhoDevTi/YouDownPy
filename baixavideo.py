@@ -31,6 +31,7 @@ def espaco():
 
 #função para download 
 def Donwload(link):
+        
     baixarVideo = YouTube(link)
     baixarVideo = baixarVideo.streams.get_lowest_resolution()
     #exceções 
@@ -39,6 +40,7 @@ def Donwload(link):
     except:
         print("Um erro impediu o exito de seu download !!")
     print("Download completo com sucesso !")
+    
 
 #Inicio do Aplicativo
 barraTit()
