@@ -33,7 +33,8 @@ def espaco():
 def Donwload(link):
         
     baixarVideo = YouTube(link)
-    baixarVideo = baixarVideo.streams.get_lowest_resolution()
+    #baixarVideo = baixarVideo.streams.get_lowest_resolution()
+    baixarVideo = baixarVideo.streams.get_highest_resolution()
     #exceções 
     try:
         baixarVideo.download()
